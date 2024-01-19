@@ -1,5 +1,14 @@
 # sam-memo-demo
 
+Logs "unknown database" error -> think it's about VPC and security rules, but still figuring it out...
+
+Checks:
+- Subnets
+- Security rule grants permission to the db
+- Correct db credentials
+
+
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - hello_world - Code for the application's Lambda function.
